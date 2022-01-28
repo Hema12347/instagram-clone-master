@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+    color: black !important;
+}
+
+.brand-logo,h2{
+    font-family: 'Grand Hotel', cursive;
+  }
+
+  /* .mycard{
+    margin-top: 30px;
+  } */
+  .auth-card{
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+  }
+  .input-field input[type=password]:focus {
+    border-bottom: 1px solid rgb(8, 93, 252) !important;
+    box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .item{
+    width: 30%;
+  }
+  .home-card{
+    max-width: 500px;
+    height: max-content;
+    margin: auto;
+    
+  }
+  .collection-item {
+    width:100%
+  }
+
+  #toast-container{
+    top:30px !important;
+    right: 20px !important;
+    left: auto !important;
+  }
+
+  .material-icons:hover{
+    cursor: pointer;
+  }
+  /* .mycard {
+   background-image: url("https://media.istockphoto.com/photos/modern-keyboard-wih-blue-log-in-button-picture-id638149354?b=1&k=20&m=638149354&s=170667a&w=0&h=K_dd1EuWBMmyU0A5IN4igEUROFozhvtj7CtJ0GswHLE=");
+   background-repeat: cover;
+   height: 90vh;
+  } */
+  .login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+  }
+
+  .register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+
+  .createpost {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://media.gettyimages.com/photos/closeup-unfocused-lights-in-the-shape-of-circles-of-color-pink-picture-id678555462?s=612x612");
+    background-size: cover;
+    height: 90vh;
+  }
+
+  .homepage {
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://previews.123rf.com/images/levart87/levart871803/levart87180300029/97005655-abstract-blurred-color-background-with-mugs-and-glare.jpg");
+      background-size: cover;
+  }
+
+/* .followposts {
+  background-color: url("https://us.123rf.com/450wm/katisa/katisa1906/katisa190600013/125418630-3d-abstract-neon-background-cyber-space-virtual-reality-urban-scene-glowing-round-shape-portal-at-th.jpg?ver=6");
+} */
+
+.followposts {
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://us.123rf.com/450wm/katisa/katisa1906/katisa190600013/125418630-3d-abstract-neon-background-cyber-space-virtual-reality-urban-scene-glowing-round-shape-portal-at-th.jpg?ver=6");
+  background-size: cover;
+  background-size: cover !important;
+}
+
+.profile {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://wallup.net/wp-content/uploads/2019/09/243589-blue-clouds-patterns-surface-templates-textures-backgrounds-morning-skies-2-748x421.jpg");
+  background-size: cover;
+  height: 90vh;
+}
